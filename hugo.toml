@@ -1,0 +1,312 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Craig Smith Resume"
+theme = "hugo-devresume-theme"
+
+
+
+
+
+
+[params]
+    author = "Craig Smith"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Craig Smith"
+        tagline = "Advisory Sales Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Bonney Lake, Washington"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "206 331 2155"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "nctiggy@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://resume.craigcloud.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Relationship Centric Selling"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Get things done, quickly & correctly"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Time management"
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Infrastructure On Prem/Cloud"
+        [[params.skills.list.items]]
+        details = "Kubernetes/VMware/PKS/PCF"
+        [[params.skills.list.items]]
+        details = "CI/CD tooling/Gitops/TDD"
+        [[params.skills.list.items]]
+        details = "Python/Ruby/GoLang"
+        [[params.skills.list.items]]
+        details = "Ansible/Packer/Terraform"
+        [[params.skills.list.items]]
+        details = "Bash/Powershell/VBS/ZSH/vi"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Systems Design and Implimentation"
+        [[params.skills.list.items]]
+        details = "Microcontroller/3D Modeling"
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.S. Information Systems, Systems Design and Management"
+        university = "City University of Seattle"
+        dates = "2010 - 2012"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Microcontrollers"
+        [[params.interests.list]]
+        name = "Paddleboarding"
+        [[params.interests.list]]
+        name = "3d Printing"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = """
+Outgoing, passionate, confident, coachable and leads by example
+- Grew Dell enterprise book of business to 30m+ YoY
+- PNW Area Transformational SE award 2015/2018
+- Built open source tools to assist in shifting customers toward IaC principles
+- Level up my team as well as customer teams via education sessions
+- Crafted unique and creative sales campaigns"""
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Advisory Sales Engineer"
+        dates = "2021 - Present"
+        company = "cnvrg.io/Intel"
+        details = """
+Responsible for growing cnvrg revenue YoY,
+built new business in public sector as well as enterprise.
+Part of buiulding new software sales practice within Intel.
+Responsible for selling Intel Tiber Suite, including developer cloud.
+"""
+        [[params.experience.list.items]]
+        details = "Helped develop Dell partnership and resell agreement"
+        [[params.experience.list.items]]
+        details = "Developed GTM through system integrators"
+        [[params.experience.list.items]]
+        details = "Helped developed Tiber Cloud Sales playbook"
+
+        [[params.experience.list]]
+        title = "Associate >>> Advisory Sales Engineer"
+        dates = "2013 - 2021"
+        company = "EMC/Dell"
+        details = "Partnered with an Account Executive, we were responsible for growing Dell Technology’s business within targeted accounts to 30m YoY. Gained trusted advisor status in my accounts and amongst my peers. Helped develop the next generation SE skill set."
+        [[params.experience.list.items]]
+        details = "Relationship/vision driven sales, emphasis on wide account influence"
+        [[params.experience.list.items]]
+        details = "Weekly customer education sessions TMo/SBUX/Premera/Tableau"
+        [[params.experience.list.items]]
+        details = "API 101 tour across the west coast"
+        [[params.experience.list.items]]
+        details = "External influence to help shift customer culture"
+        [[params.experience.list.items]]
+        details = "Built strong relationships to product engineering across many Dell Technology products"
+        [[params.experience.list.items]]
+        details = "Built Python SDK/Ansible Collection for our PowerProtect product, to enable customer Kubernetes pipelines and general adoption"
+
+
+        [[params.experience.list]]
+        title = "Computer Specialist"
+        dates = "2008 - 2013"
+        company = "Federal Aviation Administration"
+        details = "Developed, designed and deployed a flexible and robust distributed, centrally managed private infrastructure."
+        [[params.experience.list.items]]
+        details = "Deployed clusters across ten diverse locations across the country"
+        [[params.experience.list.items]]
+        details = "Improved the disaster recovery RPO from one week to 24 hours and RTO from 2 weeks to 48 hours"
+        [[params.experience.list.items]]
+        details = "Agency to save 1.2 million over four years as a result of this effort"
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "cnvrg binary shim"
+        meta = "cnvrg customer enablement"
+        tagline = "https://github.com/nctiggy/cnvrg_endpoint_binary"
+
+        [[params.projects.list]]
+        title = "Linux Prereq Tool"
+        meta = "bash/sed/awk/yaml madness"
+        tagline = "https://github.com/nctiggy/prereq_tool"
+
+        [[params.projects.list]]
+        title = "Project Colfax"
+        meta = "Automating Automation"
+        tagline = "https://github.com/EMC-Underground/project_colfax"
+
+        [[params.projects.list]]
+        title = "Powerprotect SDK"
+        meta = "Dell Product SDK"
+        tagline = "https://github.com/EMC-Underground/powerprotect"
+
+        [[params.projects.list]]
+        title = "Selfhosted Flux"
+        meta = "Gitops Repo"
+        tagline = "https://github.com/nctiggy/flux-master"
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/nctiggy"
+        title = "nctiggy"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/craig-smith-8383a165"
+        title = "Craig Smith"
+
